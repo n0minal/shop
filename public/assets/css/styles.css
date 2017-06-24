@@ -1,0 +1,109 @@
+/*
+	Global
+*/
+
+body{
+	background-color: #e3e3e3;
+}
+/*
+	Header
+*/
+
+.navbar-custom{
+	background-color: rgba(0,0,0,.7) !important;
+	border:0;
+	margin:0;
+}
+.header-logo{
+	color: white !important;
+    font-family: 'Roboto', sans-serif;
+	font-size:28px;
+	
+}
+
+.header-item{
+	color: white !important;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+}
+
+.media-well{
+	background: url('../img/test-brand.png') no-repeat;
+	height: 750px;
+	background-size:cover;
+	position:relative;
+}
+
+.media-well-gradient{
+	background: url('../img/clear.png'),linear-gradient(50deg, #00B16A 0,#1E8BC3 100%);
+	position:absolute;
+	width: 100%;
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+.media-well-text{
+	color: #fff;
+	font-weight:bold;
+	text-align:center;
+	margin:0;
+
+}
+.media-well-gradient h2{
+	font-size: 50px;
+	padding-top:280px;
+}
+.media-well-gradient h4{
+	font-size:16px;
+	padding-top:20px;
+}
+.jumbotron-landing{
+	height:60px;
+	text-align: center;
+	background: rgba(0,0,0,.8);
+	position:relative;
+	margin:0;
+	padding:0;
+	top:690px;
+}
+.jumbotron-landing a{
+	padding-top:24px !important;
+	color: #fff;
+	display:block;
+}
+.jumbotron-hot{
+	position:relative;
+	top:690px;
+	margin:0;
+}
+
+.products-panel-label{
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	text-transform: capitalize;
+	font-size:22px;
+	margin:0;
+}
+
+.panel-content{
+	padding:0;
+}
+
+.panel-heading{
+	margin:0;
+	height:26px;
+	padding:5px 0 0 10px;
+	text-align: center;
+}
+
+.panel-heading h2{
+	font-size:16px;
+	margin:0;
+
+}
+.panel-purchase-menu{
+	border:0;
+	background-color: #26C281;
+	text-align: center;
+}
